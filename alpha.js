@@ -126,6 +126,7 @@ tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣",
 cmhit = []
 fake = "/> Bais Botz";
 autorespon = settings.AutoRespon
+autoread = settings.autoread
 playmusic = settings.AutoMusic
 antidelete = settings.AntiDelete
 menusimpel = false
