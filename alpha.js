@@ -628,7 +628,7 @@ _registered.push(obj)
 fs.writeFileSync('./database/registered.json', JSON.stringify(_registered))
 }
 const checkRegisteredUser = (sender) => {
-let status = false
+let status = true
 Object.keys(_registered).forEach((i) => {
 if (_registered[i].id === sender) {
 status = true
@@ -1443,7 +1443,7 @@ break
 case 'makermenu':
 stamtus =`❏ 「 \`\`\`MENU MAKER\`\`\` 」
 ────────────────────
-_contoh: ${prefix}tahta Lex4you_
+_contoh: ${prefix}tahta BaisBotz_
 ────────────────────
 ◈ ${prefix}nulis 「 text 」
 ◈ ${prefix}tahta 「 text 」
